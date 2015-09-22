@@ -1,4 +1,6 @@
 ## A pair of fucntions that catche the inverse of a matrix
+## The first function creates a specital matrix object
+## The second function calculates the inverse of the matrix
 
 ## This fucntion creates a special matrix object that
 ## can cache its inverse
