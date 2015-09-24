@@ -4,6 +4,7 @@
 
 ## This fucntion creates a special matrix object that
 ## can cache its inverse
+## This function returns a list
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -22,6 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This fucntion computes the inverse of the special matrix returned
 ## by the previous makeCacheMatrix function
+## This function returns a matrix
+## This fucntion also flags the speical matrix with cached data
 
 cacheSolve <- function(x, ...) {
         i <- x$getinver()
